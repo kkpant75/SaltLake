@@ -1,0 +1,31 @@
+{
+	"DATABASE": {
+		"MYSQL": {
+			"SERVER": "127.0.0.1",
+			"NAME": "WALLETSERVICE",
+			"SCHEMA": ".",
+			"TABLE_NAME": "Customer",
+			"DRIVER": "",
+			"AUTH_TYPE": "WINLOGIN",
+			"USERNAME": "root",
+			"PASSWORD": ""
+		}
+	},
+	"PROCESS_LOG": {
+		"LOG_FILE_RETENTION_PERIOD": 10,
+		"LOG_FILE_MAX_FILE_SIZE": 50000000,
+		"PRINT_LOG_MESSGAE_ON_CONSOLE": "YES",
+		"ENABLE_FILE_LOGGING": "YES",
+		"LOG_LEVEL": "WARNING",
+		"LOG_FILE_NAME": "LogForSnowFlake_"
+	},
+	"SYSTEM_PARAMETERS": {
+		"LOCAL_FILE_PATH": "D:\\SALTLAKE\\",
+		"TIMEZONE": "Etc/UTC",
+		"CREDENTIAL": "",
+		"ENTITY_NAME": "SaltLakeData"
+	},
+	"WEBAPI": {
+		"WebPort": "800"
+	}
+}
